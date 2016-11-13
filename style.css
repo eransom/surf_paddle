@@ -1,0 +1,416 @@
+
+html {
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("images/header.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 475px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  margin: 0 -110px;
+  justify-content: space-around;
+}
+
+
+.logo {
+  margin-top: 13px;
+  margin-left: -10px;
+  margin-right: -525px;
+}
+
+.logo-tag {
+  font-family: 'Open Sans', sans-serif;
+  opacity: .5;
+  display: inline-table;
+  margin-top: 23px;
+}
+
+.nav-right {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 19px;
+  margin-right: 40px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: black;
+}
+
+.search {
+  color: black;
+
+}
+
+h1 {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 90px;
+  color: white;
+  margin-top: 125px;
+  margin-bottom: -14px;
+}
+
+.subhead {
+  font-family: 'Open Sans', sans-serif;
+  opacity: .5;
+}
+
+.left-content {
+  display: -webkit-flex;
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  max-width: 625px;
+  margin-left: 142px;
+  margin-top: 30px
+}
+
+.nav-right{
+  opacity: .5;
+}
+
+.nav-right a {
+  padding-right: 5px;
+}
+
+h2 {
+  font-size: -webkit-xxx-large;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 3px;
+  color: #083452;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  padding-top: 8px;
+}
+
+.anne {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.anne-name {
+  font-size: 13px;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 8px;
+  margin-left: 10px;
+  color: #106db3;
+}
+
+.date {
+  padding-top: 10px;
+  margin-left: 11px;
+  color: #67717B;
+  opacity: .6;
+}
+
+.mon {
+  padding-top: 10px;
+  margin-left: 4px;
+  color: #67717B;
+  opacity: .6;
+}
+
+.woah {
+  font-size: x-large;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 35px;
+  border-left: solid 1.5px;
+  border-color: #D3D3D3;
+  color: #106db3;
+}
+
+.container2 {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+  width: 500px;
+  margin-bottom: 30px;
+  margin-left: -16px;
+}
+
+.container2 a {
+  text-decoration: none;
+}
+
+.container2 a img {
+  opacity: .7;
+}
+
+.comment {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 10px;
+  padding-top: 6px;
+  padding-right: 10px;
+  margin-right: -24px;
+  color: white;
+  background-color: #909AA4;
+}
+
+.comment:hover {
+  background-color: #106db3;
+  transition: .3s;
+}
+
+.comment:hover img {
+  background-color: #083452;
+}
+
+.com-icon {
+  padding: 5px;
+  background-color: #3B3F44;
+}
+
+.comment img {
+  margin-top: -6px;
+  margin-right: 10px;
+}
+
+.read {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 10px;
+  padding-top: 6px;
+  padding-right: 13px;
+  margin-left: 3px;
+  margin-right: -21px;
+  color: white;
+  background-color: #909AA4;
+}
+
+.read-icon {
+  padding: 5px;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  background-color: #3B3F44;
+}
+
+.read img {
+  margin-top: -6px;
+  margin-right: 10px;
+}
+
+.read:hover {
+  background-color: #106db3;
+  transition: .3s;
+}
+
+.read:hover img {
+  background-color: #083452;
+}
+
+.share {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 10px;
+  padding-top: 6px;
+  padding-right: 10px;
+  color: white;
+  background-color: #909AA4;
+}
+
+.share-icon {
+  padding: 6px;
+  background-color: #3B3F44;
+}
+
+.share img {
+  margin-top: -6px;
+  margin-right: 10px;
+}
+
+.share:hover {
+  background-color: #106db3;
+  transition: .3s;
+}
+
+.share:hover img {
+  background-color: #083452;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.right-content {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: 95px;
+  margin-right: 115px;
+}
+
+.avatar2 {
+  width: 100%;
+  padding-left: 64px;
+}
+
+.anne-name2 {
+  color: #106db3;
+  padding-left: 55px;
+  padding-top: 10px;
+}
+
+.smedia {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: font-family: 'Oswald', sans-serif;
+  font-size: 11px;
+  max-width: 210px;
+  padding-top: 5px;
+  margin-left: 6px;
+}
+
+.smedia a {
+  text-decoration: none;
+  color: #67717B;
+  opacity: .6;
+}
+
+.smedia strong {
+  padding: 3px;
+}
+
+.lady-board {
+  padding-top: 40px;
+}
+
+.lady-board img {
+  max-width: 79%;
+}
+
+.ad a {
+  font-size: 13px;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 167px;
+  color: #67717B;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #106db3;
+  margin-bottom: 0;
+}
+
+.sidebar {
+  font-size: 14px;
+  max-width: 285px;
+  margin-top: 5px;
+}
+
+hr {
+  margin-bottom: -20px;
+  opacity: .4;
+}
+
+.popular h2 {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.container3 {
+  display: -webkit-flex;
+  display: flex;
+  background-color: #106db3;
+}
+
+.image {
+  position: relative;
+  opacity: .3;
+  transition: 2.3s;
+}
+
+.image:hover {
+  opacity: 1;
+  transition: 2.3s;
+}
+
+.image-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 10px;
+  margin-left: 9%;
+  transition: 2.3s;
+}
+
+.image:hover .image-text {
+  color: white;
+  transition: 2.3s;
+}
+
+.footer {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: #083452;
+}
+
+.logo-copyr {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 170px;
+}
+
+.logo-copyr img {
+  width: 46px;
+  height: 35px;
+}
+
+aside {
+  font-size: 15px;
+  margin-top: 13px;
+  margin-left: 15px;
+  color: white;
+  opacity: .5;
+}
+
+.footer-nav {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 35px;
+  margin-right: 90px;
+}
+
+.footer-nav a {
+  font-size: 15px;
+  padding: 7px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: white;
+  opacity: .5;
+}
+
+.nav-item span {
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 5px;
+  padding-left: 3px;
+  border-right: 1px solid;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.nav-item span:nth-child(4) {
+  border-right: none;
+}
